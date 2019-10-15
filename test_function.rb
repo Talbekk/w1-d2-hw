@@ -57,3 +57,32 @@ def number_to_full_name__month_1(num)
     "December"
   end
 end
+
+def number_to_full_name__month_3(num)
+  return case num.to_i
+  when 1
+    "January"
+  when 2
+    "February"
+  when 3
+    "March"
+  when 4
+    "April"
+  when 5
+    "May"
+  when 6
+    "June"
+  when 7
+    "July"
+  when 8
+    "August"
+  when 9
+    "September"
+  when 10
+    "October"
+  when 11
+    "November"
+  else
+    "December"
+  end
+end
