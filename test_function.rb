@@ -202,3 +202,12 @@ def number_to_short_month_name__month_10(num)
     "Dec"
   end
 end
+
+def volume_of_cube(length)
+  return length ** 3
+end
+
+def fahrenheit_to_celsius(temp)
+  temp_2 = temp - 32
+  return temp_2 / 1.8
+end
